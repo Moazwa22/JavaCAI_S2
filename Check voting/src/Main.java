@@ -6,7 +6,7 @@ public class Main {
         Scanner N = new Scanner(System.in);
         System.out.print(" Please enter you age : ");
         int age = N.nextInt();
-        N.nextLine(); // علشان في ال run الكومبايلر هيعمل سكيب للعميلة اللي بعده لو سبت ال string بعده علطول
+        N.nextLine();
         System.out.print("Please enter you nationality : ");
         String Nationality = N.nextLine();
 
