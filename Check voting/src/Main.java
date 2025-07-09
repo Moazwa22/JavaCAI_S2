@@ -1,4 +1,3 @@
-import java.util.Objects;
 import java.util.Scanner;
 public class Main {
     public static void main (String[] args)
@@ -10,7 +9,7 @@ public class Main {
         System.out.print("Please enter you nationality : ");
         String Nationality = N.nextLine();
 
-        if (age >= 18 && Objects.equals(Nationality, "Egyptian")){
+        if (age >= 18 && Nationality.equalsIgnoreCase("Egyptian")){
             System.out.println("Eligible to vote");
 
         }
